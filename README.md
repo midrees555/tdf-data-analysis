@@ -29,6 +29,7 @@ The `tdf-data-analysis` repository focuses on **exploratory data analysis (EDA)*
 │   ├── ml_model.ipynb      # Machine learning experiments
 ├── 📂 reports               # Reports & insights
 ├── 📂 scripts               # Python scripts for automation
+├── 📂 python-ka-chilla      # 40-day Python learning for Data Analysis, DS & ML
 ├── .gitignore              # Git ignore file
 ├── LICENSE                 # License information
 ├── README.md               # Project documentation (You're reading this!)
