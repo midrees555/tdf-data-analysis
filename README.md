@@ -106,7 +106,7 @@ This project is licensed under the **MIT License** – see the [`LICENSE`](LICEN
 
 ## **📞 Contact & Community Admininstration**
 💬 **Join the TechDevFamily (TDF) Community:**  
-- Discord: [Coming Soon]
+- Discord: [Coming Soon...]
 - WhatsApp: [@TechDevFamily](https://whatsapp.com/channel/0029Va8d38G7T8bTcJYRWk0V)
 - LinkedIn: [MuhammadIdrees](https://www.linkedin.com/in/midrees555/)
 
