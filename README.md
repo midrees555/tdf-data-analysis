@@ -1,6 +1,6 @@
 # **TDF Data Analysis**
 
-![TechDevFamily Logo](https://via.placeholder.com/150)
+![TechDevFamily Logo](./python-ka-chilla/day-00-resources/TDF%20logo.jpg)
 
 Welcome to the **TDF Data Analysis** repository! 🚀
 This project is part of **TechDevFamily (TDF)**, a tech community dedicated to **data science, AI, machine learning, and Data Analytics**. The repository provides datasets, notebooks, and resources to help beginners and professionals work on real-world data analysis projects.
