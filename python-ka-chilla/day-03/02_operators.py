@@ -115,11 +115,11 @@ print(x & y)  # Output: 0 (0000 in binary)
 print("--------------------------------\nBitwise AND - More Examples:")
 m = 12  # 01100 in binary
 n = 20  # 10100 in binary
-print(m & n)
+print(m & n)    # OutPut : 4 (00100 in Binary)
 
-m = 28  # 01100 in binary
+m = 28  # 11100 in binary
 n = 20  # 10100 in binary
-print(m & n)
+print(m & n)    # OutPut : 20 (10100 in Binary)
 # ----------------------------------->
 
 
@@ -128,7 +128,7 @@ print("Bitwise OR...")
 # ----------------------------------->
 x = 10  # 1010 in binary
 y = 4   # 0100 in binary
-print(x | y)  # Output: 14 (1110 in binary)
+print(x | y)    # Output: 14 (1110 in binary)
 # ----------------------------------->
 # Explanation:
 # ------------>
@@ -138,9 +138,15 @@ print(x | y)  # Output: 14 (1110 in binary)
 
 # More Examples:
 print("--------------------------------\nBitwise OR - More Examples:")
-c = 14  # 1110
-d = 9   # 1001
+c = 14  # 1110 in binary
+d = 9   # 1001 in binary
+print(c | d)    # OutPut: 15 (1111 in binary)
+
+c = 42  # 101010 in binary
+d = 53  # 110101 in binary
+print(c | d)    # OutPut : 63 (111111)
 # ----------------------------------->
+
 
 # 10. Bitwise XOR
 print("Bitwise XOR...")
@@ -154,6 +160,16 @@ print(x ^ y)  # Output: 14 (1110 in binary)
 # The bitwise XOR operator compares the binary representation of two numbers and returns a new number where each bit is set to 1 if the bits are different in the corresponding positions, otherwise, it sets the bit to 0.
 # In this case, the binary representation of 10 is '1010' and the binary representation of 4 is '0100'. When we perform a bitwise XOR operation between these two numbers, we get '1110' which is equal to 14 in decimal.
 # ----------------------------------->
+
+
+print("--------------------------------\nBitwise XOR - More Examples:")
+e = 21  # 010101 in binary
+f = 38  # 100110 in binary
+print(e ^ f)    # OutPut : 51 (110011 in binary)
+
+e = 19  # 10011 in binary
+f = 25  # 11001 in binary
+print(e ^ f)    # OutPut : 10 (01010 in binary)
 # ----------------------------------->
 
 
@@ -167,7 +183,16 @@ print(~x)  # Output: -11
 # ------------>
 # The bitwise NOT operator inverts the bits of a number, changing 1s to 0s and 0s to 1s.
 # In this case, the binary representation of 10 is '1010'. When we perform a bitwise NOT operation on 10, we get '-11' in decimal.
+
+# The bitwise NOT (~) operator is a unary operator that flips all bits of a number. In Python, integers are stored in two’s complement form, so applying ~ results in -(n + 1).
+# 1. Converts the number to binary.
+# 2. Flips all bits (0s become 1s and 1s become 0s).
+# 3. Interprets the result using two’s complement (if negative).
 # ----------------------------------->
+
+print("--------------------------------\nBitwise NOT - More Examples:")
+G = 17  # 10001 in binary
+print(~G)   # -18 (01110 in binary)
 # ----------------------------------->
 
 
@@ -182,6 +207,14 @@ print(x << 1)  # Output: 20 (10100 in binary)
 # The left shift operator shifts the bits of a number to the left by a specified number of positions, adding zeros to the right.
 # In this case, the binary representation of 10 is '1010'. When we perform a left shift operation on 10 by 1 position, we get '10100' which is equal to 20 in decimal.
 # ----------------------------------->
+
+
+print("--------------------------------\Left Shift - More Examples:")
+H = 17  # 10001 in binary
+print(H << 2)   # 68 (1000100 in binary)
+
+H = 26  # 11010
+print(H << 3)   # 208 (11010000 in binary)
 # ----------------------------------->
 
 # 13. Right Shift
@@ -233,9 +266,9 @@ print(x)  # Output: 8
 # 18. Bitwise AND Assignment
 print("Bitwise AND Assignment...")
 # ----------------------------------->
-x = 10
-x &= 4
-print(x)  # Output: 0
+x = 10  # 1010 in binary
+x &= 4  # 0100 in binary
+print(x)  # Output: 0 (0000 in binary)
 # ----------------------------------->
 # Explanation:
 # ------------>
@@ -344,3 +377,16 @@ print(x)  # Output: -11
 # ----------------------------------->
 # ------------------------------------------------->
 # ------------------------------------------------->
+
+
+# Now come to the quizz again....!
+# Equation:
+print(3 ** 2 / 2 * 3 / 3 + 6 - 4 / (2 * 6))
+# step - 1:     2 * 6    = 12
+# step - 2:     3 ** 2   = 9
+# step - 3:     9 / 2    = 4.5
+# step - 4:     4.5 * 3  = 13.5
+# step - 5:     13.5 / 3 = 4.5
+# step - 6:     4 / 12   = 0.3333...
+# step - 7:     4.5 + 6  = 10.5
+# step - 8:     10.5 - 0.3333 = 10.166666666666666667 ~= 10.1667
