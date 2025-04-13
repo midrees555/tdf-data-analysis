@@ -1,2 +1,8 @@
-print("Hello World")
-print("Hello We are learning Python To Become\nA Good Data Scientist")
+print("--------------------------------|")
+print("--------------------------------|\nHello String")
+
+print("PEMDAS Rule in Python")
+print(3 ** 2 / 2 * 3 + 6 - 4 / (2 * 6))
+
+
+print("--------------------------------|")
