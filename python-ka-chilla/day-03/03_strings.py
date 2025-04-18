@@ -25,6 +25,15 @@ Take Care
 # `` called bactics and use to show code separately from other text in markdown language. And we will see this in upcoming chapters
 # 
 # ------------------------------------------!
-#    
+print('''
+This is a
+Tripple single (Multiline)
+Quotation mark
+''')
+
+print("""
+And This is a Tripple Double
+(Multiline) Quotation mark
+""")
 
 print("--------------------------------|")
