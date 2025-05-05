@@ -87,6 +87,17 @@ print("What's up....?")
 
 # --------------------------------------------------------------------------------#
 
+# Mostly data are mostly existed in the form of numeric and string
+# Boolean operators and Binary data
+
+# Boolean Operators----!
+# Boolean Operators are words (like AND, OR, NOT) and symbols used to refine searches in databases and search engines, allowing us to narrow or broaden our search results
+
+# Binary Data----!
+# A data which has two possible occurances (i.e. 0 and 1)
+# It's raining.
+# You are not working.
+
 
 
 
