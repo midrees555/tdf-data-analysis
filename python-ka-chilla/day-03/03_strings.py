@@ -36,4 +36,32 @@ And This is a Tripple Double
 (Multiline) Quotation mark
 """)
 
+# Numbering in string
+print(2 + 3)
+print("2 + 3 + 5 - 4")
+
+# What is Type Casting in programming
+# Converting one data type into another, is called type casting
+# Example:
+stringNum = "2 + 3 + 5 + 7 + 9"
+print(type(stringNum))      # This will probably print <class 'str'> means, variable belongs to 'string class'
+print("----------------------")
+
+# Now, we are trying to convert it into integer to perform arithmatic operation (that we can't do on string type)
+# Example:
+myAge = 25
+try:
+    print(myAge + stringNum)        # Error: Unsupported operand type(s) for +: 'int' and 'str'
+    print("----------------------")
+except TypeError as e:
+    print(f"Something went wrong\nError Message: '{e}'\n-------------------")
+
+# Solution:
+stringNum = int(stringNum)
+print(myAge + stringNum)            # the method 'int()' will convert 'string' into 'int' type
+print("----------------------")
+
+
+
+
 print("--------------------------------|")
