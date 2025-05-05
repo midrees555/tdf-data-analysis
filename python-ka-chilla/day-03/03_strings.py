@@ -81,7 +81,12 @@ myStringVar = str(myIntVar)
 print(f"Type of New variable 'myStringVar' = {type(myStringVar)}")
 # Now this will print <class 'str'> which means string data type
 
-# -------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------#
+# Using single & double quotation together
+print("What's up....?")
+
+# --------------------------------------------------------------------------------#
+
 
 
 
