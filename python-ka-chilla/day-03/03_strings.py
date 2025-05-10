@@ -104,3 +104,41 @@ print("What's up....?")
 
 
 print("--------------------------------|")
+
+
+# Random Activities - To familier you with new upcoming topics and concepts
+planet = "Pluto is a planet"
+
+# String Methods
+print("-----------------------------------------")
+# 1. str.upper()
+print("1. str.upper()")
+print("-----------")
+print(planet)
+
+print(planet.upper())           # No return value
+print("-----------------------------------------")
+
+
+# 2. str.lower()
+print("\n2. str.lower()")
+print("--------------")
+print(planet)
+print(planet.lower())           # No return value
+print("-----------------------------------------")
+
+
+# 3. Searching for the first index of a substring
+print("\n3. Searching for the first index of a substring")
+print("----------------")
+print(planet)
+print(planet.index('plan'))
+print("------------------------------------------")
+
+
+# 4. startswith()
+print("\n4. startswith()")
+print("-----------------")
+print(planet)
+print(planet.startswith(planet))
+print("----------------\n", help(planet.startswith(planet)))
